@@ -2,6 +2,10 @@ Fish Species Classification Project
 
 This project aims to build an Artificial Neural Network (ANN) model to classify fish species using image data. Below is a detailed explanation of the project steps and the techniques used.
 
+Kaggle Code Link : https://www.kaggle.com/code/ozlemkaykc/akbankdeeplearning-ann
+
+Dataset Link :  https://www.kaggle.com/datasets/crowww/a-large-scale-fish-dataset
+
 Project Steps
 1. Importing Libraries
 The following libraries were utilized in the project:
@@ -33,5 +37,6 @@ Graphical Analysis: Accuracy and loss values obtained during the training proces
 Classification Success: The classification results for fish species were analyzed with a confusion matrix and other evaluation metrics.
 
 Project Goal
+
 The goal of this project is to develop an artificial neural network model capable of accurately classifying fish species from images. The use of data augmentation and optimization techniques improved the model's generalization ability. Additionally, the model's success was thoroughly evaluated using multiple metrics such as precision, recall, and F1-score.
 
