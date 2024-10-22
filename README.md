@@ -23,22 +23,22 @@ Data Loading and Preprocessing: The fish dataset was obtained from Kaggle, and t
 Data Splitting: The dataset was split into 80% training and 20% validation.
 
 
-**4. Building the Artificial Neural Network (ANN) Model**
+**3. Building the Artificial Neural Network (ANN) Model**
 
 Model Structure: The model is built using a Sequential structure, including fully connected layers (Dense), batch normalization, and dropout layers.
 Output Layer: The final layer is designed based on the number of fish species, using the softmax activation function.
 
-**6. Model Training**
+**4. Model Training**
 
 Callback Functions: EarlyStopping, ModelCheckpoint, and ReduceLROnPlateau callbacks were used to optimize the training process. These callbacks help to prevent overfitting and save the best-performing model during validation.
 Optimization: The model was optimized during training, and accuracy and loss were monitored throughout the process.
 
-**8. Evaluating Model Performance**
+**5. Evaluating Model Performance**
 
 Accuracy and Loss Graphs: Accuracy and loss values for both the training and validation sets were visualized and analyzed.
 Classification Performance: The performance of the model was evaluated using a confusion matrix and classification report, measuring metrics such as precision, recall, and F1-score.
 
-**10. Visualization and Interpretation of Results**
+**6. Visualization and Interpretation of Results**
 
 Graphical Analysis: Accuracy and loss values obtained during the training process were visualized using graphs.
 Classification Success: The classification results for fish species were analyzed with a confusion matrix and other evaluation metrics.
